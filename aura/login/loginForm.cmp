@@ -13,7 +13,7 @@
     <aura:attribute name="selfRegisterUrl" type="String" required="false" default="/SelfRegister"/>
     
     <aura:attribute name="isUsernamePasswordEnabled" type="Boolean" access="public"/>
-    <aura:attribute name="isSelfRegistrationEnabled" type="Boolean" access="public"/>
+    <aura:attribute name="isSelfRegistrationEnabled" type="Boolean" access="private"/>
     <aura:attribute name="communityForgotPasswordUrl" type="String" access="public"/>
     <aura:attribute name="communitySelfRegisterUrl" type="String" access="private"/>
     
