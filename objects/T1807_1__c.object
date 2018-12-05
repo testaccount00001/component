@@ -53,11 +53,28 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Auto1__c</fullName>
+        <displayFormat>A-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Auto1</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>CHKBOX1__c</fullName>
         <defaultValue>false</defaultValue>
         <description>updeeate2</description>
         <externalId>false</externalId>
         <label>CHKBOX1</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Check2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>some description</description>
+        <externalId>false</externalId>
+        <label>Check2</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
