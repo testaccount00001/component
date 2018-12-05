@@ -53,77 +53,47 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Auto1__c</fullName>
-        <displayFormat>A-{0000}</displayFormat>
+        <fullName>BigName__c</fullName>
         <externalId>false</externalId>
-        <label>Auto1</label>
-        <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>CHKBOX1__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>updeeate2</description>
-        <externalId>false</externalId>
-        <label>CHKBOX1</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Check2__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>some description</description>
-        <externalId>false</externalId>
-        <label>Check2</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>TextField1__c</fullName>
-        <externalId>false</externalId>
-        <label>TextField1</label>
-        <length>123</length>
+        <label>BigName</label>
+        <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>picklist1__c</fullName>
+        <fullName>L4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>picklist1</label>
+        <label>Object2</label>
+        <referenceTo>Object2__c</referenceTo>
+        <relationshipLabel>Object3</relationshipLabel>
+        <relationshipName>Object3</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Apple</fullName>
-                    <default>false</default>
-                    <label>Apple</label>
-                </value>
-                <value>
-                    <fullName>Melon</fullName>
-                    <default>false</default>
-                    <label>Melon</label>
-                </value>
-                <value>
-                    <fullName>Orange</fullName>
-                    <default>false</default>
-                    <label>Orange</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Lookup</type>
     </fields>
-    <label>T1807_1</label>
+    <fields>
+        <fullName>R1__c</fullName>
+        <externalId>false</externalId>
+        <label>Object1</label>
+        <referenceTo>Object1__c</referenceTo>
+        <relationshipLabel>Object3</relationshipLabel>
+        <relationshipName>Object3</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Object3</label>
     <nameField>
-        <label>T1807_1 Name</label>
+        <label>Object3 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>T1807_1</pluralLabel>
+    <pluralLabel>Object3</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
