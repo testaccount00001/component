@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectxmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>L2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Object1</label>
+        <referenceTo>Object1__c</referenceTo>
+        <relationshipLabel>Object2 (Object1)</relationshipLabel>
+        <relationshipName>Object21</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>L3__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>

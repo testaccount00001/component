@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectxmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>D__c</fullName>
+        <externalId>false</externalId>
+        <label>D</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Amsterdam</fullName>
+                    <default>false</default>
+                    <label>Amsterdam</label>
+                </value>
+                <value>
+                    <fullName>Milan</fullName>
+                    <default>false</default>
+                    <label>Milan</label>
+                </value>
+                <value>
+                    <fullName>Warsaw</fullName>
+                    <default>false</default>
+                    <label>Warsaw</label>
+                </value>
+                <value>
+                    <fullName>Dublin</fullName>
+                    <default>false</default>
+                    <label>Dublin</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
