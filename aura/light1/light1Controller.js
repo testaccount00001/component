@@ -4,4 +4,5 @@
 		// yet another line
 	}
     // extra line
+    // 2nd line
 })
